@@ -37,7 +37,7 @@ function Root() {
             iconName = focused ? 'ios-person' : 'ios-person';
             iconSize = focused ? 32 : 24;
           }else if (route.name === 'Query') {
-            iconName = focused ? 'ios-list-box' : 'ios-list-box';
+            iconName = focused ? 'cloud' : 'cloud';
             iconSize = focused ? 32 : 24;
           }else if (route.name === 'Inbox') {
             iconName = focused ? 'ios-chatbubbles' : 'ios-chatbubbles';
